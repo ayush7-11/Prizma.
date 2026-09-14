@@ -8,6 +8,10 @@
 [![Built with React](https://img.shields.io/badge/React-050705?style=for-the-badge&logo=react&logoColor=61dafb)](https://react.dev/)
 [![Powered by Vite](https://img.shields.io/badge/Vite-050705?style=for-the-badge&logo=vite&logoColor=646cff)](https://vite.dev/)
 
+## Design inspiration 
+- This project was inspired by a Creative Agency landing page from the Figma Community. I recreated the visual direction in React and Tailwind CSS, then adapted and extended the design with my own layouts, content, responsive behavior, and GSAP animations.
+[![Link :](https://google.com)]
+
 ## ✨ What’s inside
 
 - Cinematic hero entrance with GSAP-driven movement
