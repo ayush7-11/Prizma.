@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:regular,500,600,700,800);
+@import 'tailwindcss';
+@keyframes menuOpen { from { opacity: 0; transform: translateY(-15px) scaleY(0.95); } to { opacity: 1; transform: translateY(0) scaleY(1); } }
+@keyframes menuItem { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+*{
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
