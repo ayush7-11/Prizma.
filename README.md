@@ -10,7 +10,6 @@
 
 ## Design inspiration 
 - This project was inspired by a Creative Agency landing page from the Figma Community. I recreated the visual direction in React and Tailwind CSS, then adapted and extended the design with my own layouts, content, responsive behavior, and GSAP animations.
-[![Link :](https://google.com)]
 
 ## ✨ What’s inside
 
