@@ -1,54 +1,61 @@
-# Prizma — Creative Digital Agency
+# PRIZMA. ✦
 
-A bold, motion-led creative agency website built around distinctive digital experiences, strategy, design, branding, and development.
+### A motion-led creative agency experience
 
-**Live preview:** [prizma-dot.vercel.app](https://prizma-dot.vercel.app/)
+> Bold ideas deserve bold execution. Prizma is a high-energy agency website for digital strategy, design, branding, and development.
 
-## Highlights
+[![Live Preview](https://img.shields.io/badge/↗_Live_Preview-a3e635?style=for-the-badge&labelColor=050705)](https://prizma-dot.vercel.app/)
+[![Built with React](https://img.shields.io/badge/React-050705?style=for-the-badge&logo=react&logoColor=61dafb)](https://react.dev/)
+[![Powered by Vite](https://img.shields.io/badge/Vite-050705?style=for-the-badge&logo=vite&logoColor=646cff)](https://vite.dev/)
 
-- Cinematic GSAP hero animations and ScrollTrigger reveals
-- Responsive desktop and mobile navigation
-- Editorial-style Blog page with article filtering and hover interactions
-- Services, projects, pricing, testimonials, team, and contact sections
-- Custom Prizma favicon
-- Responsive layouts built with Tailwind CSS
+## ✨ What’s inside
 
-## Tech stack
+- Cinematic hero entrance with GSAP-driven movement
+- Scroll-triggered reveals and image parallax
+- Editorial Blog experience with category filters and image-hover interactions
+- Responsive animated navigation for desktop and mobile
+- Agency sections for services, projects, team, testimonials, pricing, and more
+- Custom Prizma favicon and a responsive Tailwind design system
 
-- React
-- Vite
-- Tailwind CSS
-- GSAP + ScrollTrigger
-- Lucide React
-- React Router
+## 🛠 Built with
 
-## Run locally
+| Tool | Purpose |
+| --- | --- |
+| React | Component-based interface |
+| Vite | Fast development and production builds |
+| Tailwind CSS | Responsive visual styling |
+| GSAP + ScrollTrigger | Premium motion and scroll interactions |
+| Lucide React | Lightweight interface icons |
+| React Router | Client-side page navigation |
+
+## 🚀 Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local address shown in your terminal.
+Open the local address shown in your terminal and start exploring.
 
-## Production build
+## 📦 Build for production
 
 ```bash
 npm run build
 ```
 
-Vite creates the production-ready files in the `dist` folder.
+Vite creates the deployable production files in `dist`.
 
-## Deploy with Vercel Drop
+## ☁️ Deploy
+
+This project can be deployed directly through [Vercel Drop](https://vercel.com/drop), even without a GitHub repository:
 
 1. Run `npm run build`.
-2. Open [Vercel Drop](https://vercel.com/drop).
-3. Upload the generated `dist` folder.
-4. Choose a unique project name and deploy.
+2. Upload the generated `dist` folder to Vercel Drop.
+3. Choose a project name and deploy. Done. ✦
 
-## SPA route support
+## 🧭 SPA route support
 
-For direct refreshes on routes such as `/about`, `/services`, and `/blog`, add a `vercel.json` file to the project root:
+To make direct refreshes work on pages like `/about`, `/services`, and `/blog`, add this `vercel.json` file to the project root:
 
 ```json
 {
@@ -61,11 +68,15 @@ For direct refreshes on routes such as `/about`, `/services`, and `/blog`, add a
 }
 ```
 
-## Project structure
+## 📁 Project structure
 
 ```text
 src/
-  components/     Reusable website sections and navigation
+  components/     Reusable sections and navigation
   pages/          Home, Services, About, and Blog pages
 public/           Images, favicon, and static assets
 ```
+
+---
+
+Made with ✦ by **Prizma**
